@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Επεξεργαστής Κειμένου</string>
+    <string name="untitled">Χωρίς τίτλο</string>
+
+    <string name="action_new">Νέο</string>
+    <string name="action_open">Άνοιγμα…</string>
+    <string name="action_save">Αποθήκευση</string>
+    <string name="action_save_as">Αποθήκευση ως…</string>
+    <string name="action_undo">Αναίρεση</string>
+    <string name="action_redo">Επανάληψη</string>
+    <string name="action_find">Εύρεση και αντικατάσταση</string>
+    <string name="action_goto">Μετάβαση σε γραμμή…</string>
+    <string name="action_wrap">Αναδίπλωση γραμμών</string>
+    <string name="action_mono">Γραμματοσειρά σταθερού πλάτους</string>
+    <string name="action_font_up">Μεγαλύτερα γράμματα</string>
+    <string name="action_font_down">Μικρότερα γράμματα</string>
+    <string name="action_dark">Σκούρο θέμα</string>
+
+    <string name="unsaved_title">Μη αποθηκευμένες αλλαγές</string>
+    <string name="unsaved_message">Θέλετε να αποθηκεύσετε τις αλλαγές στο «%1$s»;</string>
+    <string name="discard">Απόρριψη</string>
+    <string name="cancel">Άκυρο</string>
+    <string name="ok">OK</string>
+
+    <string name="saved">Αποθηκεύτηκε</string>
+    <string name="save_failed">Η αποθήκευση απέτυχε</string>
+    <string name="save_readonly">Δεν επιτρέπεται εγγραφή σε αυτό το αρχείο. Επιλέξτε νέα θέση.</string>
+    <string name="open_failed">Το άνοιγμα του αρχείου απέτυχε</string>
+    <string name="file_too_large">Το αρχείο είναι πολύ μεγάλο (όριο %1$d MB)</string>
+    <string name="not_text">Το αρχείο δεν φαίνεται να είναι αρχείο κειμένου</string>
+
+    <string name="find_hint">Εύρεση</string>
+    <string name="replace_hint">Αντικατάσταση με</string>
+    <string name="find_prev">Προηγούμενο</string>
+    <string name="find_next">Επόμενο</string>
+    <string name="close">Κλείσιμο</string>
+    <string name="replace">Αντικ.</string>
+    <string name="replace_all">Όλα</string>
+    <string name="match_case">Aa</string>
+    <string name="not_found">Δεν βρέθηκε</string>
+    <string name="replaced_count">Αντικαταστάσεις: %1$d</string>
+
+    <string name="goto_title">Μετάβαση σε γραμμή</string>
+    <string name="goto_hint">Αριθμός γραμμής (1–%1$d)</string>
+
+    <string name="status_format">Γρ %1$d, Στ %2$d  •  %3$d λέξεις  •  %4$d χαρακτήρες</string>
+</resources>

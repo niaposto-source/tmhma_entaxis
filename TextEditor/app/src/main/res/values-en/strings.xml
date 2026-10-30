@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Text Editor</string>
+    <string name="untitled">Untitled</string>
+
+    <string name="action_new">New</string>
+    <string name="action_open">Open…</string>
+    <string name="action_save">Save</string>
+    <string name="action_save_as">Save as…</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_find">Find and replace</string>
+    <string name="action_goto">Go to line…</string>
+    <string name="action_wrap">Word wrap</string>
+    <string name="action_mono">Monospace font</string>
+    <string name="action_font_up">Larger text</string>
+    <string name="action_font_down">Smaller text</string>
+    <string name="action_dark">Dark theme</string>
+
+    <string name="unsaved_title">Unsaved changes</string>
+    <string name="unsaved_message">Do you want to save the changes to “%1$s”?</string>
+    <string name="discard">Discard</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="saved">Saved</string>
+    <string name="save_failed">Saving failed</string>
+    <string name="save_readonly">This file cannot be written to. Choose a new location.</string>
+    <string name="open_failed">Could not open the file</string>
+    <string name="file_too_large">The file is too large (limit %1$d MB)</string>
+    <string name="not_text">This does not look like a text file</string>
+
+    <string name="find_hint">Find</string>
+    <string name="replace_hint">Replace with</string>
+    <string name="find_prev">Previous</string>
+    <string name="find_next">Next</string>
+    <string name="close">Close</string>
+    <string name="replace">Replace</string>
+    <string name="replace_all">All</string>
+    <string name="match_case">Aa</string>
+    <string name="not_found">Not found</string>
+    <string name="replaced_count">Replacements: %1$d</string>
+
+    <string name="goto_title">Go to line</string>
+    <string name="goto_hint">Line number (1–%1$d)</string>
+
+    <string name="status_format">Ln %1$d, Col %2$d  •  %3$d words  •  %4$d characters</string>
+</resources>

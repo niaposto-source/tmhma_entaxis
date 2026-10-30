@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/action_save"
+        android:alphabeticShortcut="s"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/ic_undo"
+        android:title="@string/action_undo"
+        android:alphabeticShortcut="z"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_redo"
+        android:icon="@drawable/ic_redo"
+        android:title="@string/action_redo"
+        android:alphabeticShortcut="y"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_find"
+        android:icon="@drawable/ic_search"
+        android:title="@string/action_find"
+        android:alphabeticShortcut="f"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_new"
+        android:title="@string/action_new"
+        android:alphabeticShortcut="n"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_open"
+        android:title="@string/action_open"
+        android:alphabeticShortcut="o"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_save_as"
+        android:title="@string/action_save_as"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_goto"
+        android:title="@string/action_goto"
+        android:alphabeticShortcut="g"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_wrap"
+        android:checkable="true"
+        android:title="@string/action_wrap"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_mono"
+        android:checkable="true"
+        android:title="@string/action_mono"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_font_up"
+        android:title="@string/action_font_up"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_font_down"
+        android:title="@string/action_font_down"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_dark"
+        android:checkable="true"
+        android:title="@string/action_dark"
+        app:showAsAction="never" />
+</menu>
